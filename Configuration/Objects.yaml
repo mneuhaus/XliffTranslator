@@ -1,0 +1,9 @@
+Mrimann\XliffTranslator\Core\XliffModel:
+  properties:
+    cache:
+      object:
+        factoryObjectName: TYPO3\Flow\Cache\CacheManager
+        factoryMethodName: getCache
+        arguments:
+          1:
+            value: Flow_I18n_XmlModelCache

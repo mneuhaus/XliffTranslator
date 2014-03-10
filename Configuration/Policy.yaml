@@ -1,0 +1,12 @@
+#                                                                        #
+# Security policy for the TYPO3.NeosDemoTypo3Org package                 #
+#                                                                        #
+
+resources:
+  methods:
+    Mrimann_XliffTranslator_General: 'method(Mrimann\XliffTranslator\Controller\StandardController->.*Action())'
+
+acls:
+  Everybody:
+    methods:
+      Mrimann_XliffTranslator_General: GRANT
